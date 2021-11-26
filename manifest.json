@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+  
+    "name": "FoToRo Stream Chrome Extension",
+    "version": "0.1.0",
+    "description": "Simple Chrome extension adding video player to FoToRo's websites.",
+    "content_scripts": [{
+      "js": ["scripts/content.js"],
+      "matches": ["https://www.chastitybabes.com/*"]
+    }]
+  
+  }
